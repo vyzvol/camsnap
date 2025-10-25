@@ -28,7 +28,7 @@ Install dependencies:
 Arch Linux:sudo pacman -S curl nlohmann-json openmp pkg-config
 
 
-Debian/Ubuntu:sudo apt update
+Debian/Ubuntu:sudo apt update &&
 sudo apt install libcurl4-openssl-dev nlohmann-json3-dev libomp-dev pkg-config
 
 
