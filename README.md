@@ -6,7 +6,7 @@ Sends photo + IP/location to a Telegram chat.
 Kills VPNs (openvpn, wireguard, etc.) before capturing.
 Shows ASCII art when done.
 
-Requirements
+**Requirements**
 
 Linux with a webcam (/dev/video0).
 Libraries:
@@ -18,7 +18,7 @@ V4L2: Linux kernel webcam support.
 
 
 
-Setup
+**Setup**
 
 Clone the repo:git clone https://github.com/vyzvol/camsnap.git
 cd camsnap
@@ -40,7 +40,7 @@ Fedora:sudo dnf install libcurl-devel nlohmann-json-devel libomp-devel pkgconf
 Edit capture.cpp:
 insert your Telegram bot token and telegram chat ID.
 
-Notes
+**Notes**
 
 Works on most Linux distros with V4L2-compatible webcams.
 Optimized with OpenMP for faster pixel conversion.
